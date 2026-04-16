@@ -73,16 +73,17 @@ h1 img{
 }
 /*contact us text*/
 form {
-    background-color:rgba(245, 245, 220, 0.379);
+    background-color: rgba(245, 245, 220, 0.379);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
+    align-items: center;
     padding: 5%;
     width: 50%;
+    margin: auto;
+    gap: 15px;
 }
+
 .con4,.con3,.con1,.con2{
     display: grid;
     align-content: center;
@@ -115,12 +116,7 @@ form {
     animation: float 3s ease-in-out infinite;
 }
 
-.page1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
+
 
 .portfolio {
     display: flex;
