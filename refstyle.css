@@ -97,6 +97,11 @@ input, textarea {
     border-radius: 10px;
     border: none;
 }
+
+textarea {
+    min-height: 120px;
+    resize: none;
+}
 .skillset {
     display: flex;
     justify-content: center;
